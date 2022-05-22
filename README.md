@@ -7,3 +7,4 @@
 - [x] Criando a section para a discografia.
 - [x] Criando a section para as fotos.
 - [x] Criando a section para os vídeos.
+- [x] Criando a section para os contatos.
