@@ -5,3 +5,4 @@
 - [x] Criando o header.
 - [x] Criando a section para a agenda.
 - [x] Criando a section para a discografia.
+- [x] Criando a section para as fotos.
