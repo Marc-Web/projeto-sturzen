@@ -11,3 +11,4 @@
 - [x] Criando o footer.
 - [x] Estilização da página com CSS.
 - [x] Estilizando o body.
+- [x] Estilizando a navbar.
