@@ -5,7 +5,9 @@
 - [x] Criando o header.
 - [x] Criando a section para a agenda.
 - [x] Criando a section para a discografia.
-- [x] Criando a section para as fotos.
+- [x] Criando a section para as fotos com Owl Carousel 2.
 - [x] Criando a section para os vídeos.
 - [x] Criando a section para os contatos.
 - [x] Criando o footer.
+- [x] Estilização da página com CSS.
+- [x] Estilizando o body.
