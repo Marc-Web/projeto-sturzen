@@ -3,3 +3,4 @@
 - [x] Criando a estrutura de pastas e o html e inserindo imagens.
 - [x] Criando o navbar.
 - [x] Criando o header.
+- [x] Criando a section para a agenda.
