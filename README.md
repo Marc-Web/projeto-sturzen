@@ -4,3 +4,4 @@
 - [x] Criando o navbar.
 - [x] Criando o header.
 - [x] Criando a section para a agenda.
+- [x] Criando a section para a discografia.
