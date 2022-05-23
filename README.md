@@ -14,3 +14,4 @@
 - [x] Estilizando a navbar.
 - [x] Estilizando o header.
 - [x] Estilizando a section agenda.
+- [x] Estilizando a section notícias.

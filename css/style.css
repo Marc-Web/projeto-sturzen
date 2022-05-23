@@ -114,3 +114,22 @@ header p {
   text-decoration: none;
   color: #1c1c1c;
 }
+
+/*Notícias*/
+
+#noticias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+#noticias ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+#noticias ul li {
+  text-align: center;
+}
