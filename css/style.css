@@ -133,3 +133,12 @@ header p {
 #noticias ul li {
   text-align: center;
 }
+
+/*Discografia*/
+
+#discografia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}

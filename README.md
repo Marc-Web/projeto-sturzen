@@ -15,3 +15,4 @@
 - [x] Estilizando o header.
 - [x] Estilizando a section agenda.
 - [x] Estilizando a section notícias.
+- [x] Estilizando a section discografia.
