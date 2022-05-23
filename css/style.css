@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
   color: #1c1c1c;
 }
@@ -55,12 +57,7 @@ nav ul li a {
 }
 
 nav div ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  width: 100%;
+  display: none
 }
 
 nav div ul li {
@@ -156,10 +153,6 @@ header p {
   margin-bottom: 20px;
 }
 
-#fotos img {
-  width: 100%;
-}
-
 /*Vídeos*/
 
 #videos {
@@ -191,4 +184,14 @@ header p {
 
 #contato h2 {
   color: #000000;
+}
+
+/*Footer*/
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #272727;
+  color: #FFFFFF;
+  width: 100%;
 }

@@ -19,3 +19,4 @@
 - [x] Estilizando a section fotos.
 - [x] Estilizando a section videos.
 - [x] Estilizando a section contato.
+- [x] Estilizando o footer.
