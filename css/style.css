@@ -159,3 +159,36 @@ header p {
 #fotos img {
   width: 100%;
 }
+
+/*Vídeos*/
+
+#videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+#videos ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+#videos ul li {
+  text-align: center;
+}
+
+/*Contato*/
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+#contato h2 {
+  color: #000000;
+}

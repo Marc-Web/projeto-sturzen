@@ -17,3 +17,5 @@
 - [x] Estilizando a section notícias.
 - [x] Estilizando a section discografia.
 - [x] Estilizando a section fotos.
+- [x] Estilizando a section videos.
+- [x] Estilizando a section contato.
