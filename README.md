@@ -12,3 +12,4 @@
 - [x] Estilização da página com CSS.
 - [x] Estilizando o body.
 - [x] Estilizando a navbar.
+- [x] Estilizando o header.
