@@ -1,6 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
   color: #1c1c1c;
 }
@@ -8,15 +6,24 @@ body {
 h1, h2, h3 {
   font-family: sans-serif;
   color: #000000;
+  text-align: center;
 }
 
 /*Navegação*/
+
+#logo {
+  font-family: "Tangerine";
+  font-weight: 500;
+  font-size: 50px;
+  color: #FFFFFF;
+}
 
 nav {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #272727;
+  padding-bottom: 5px;
 }
 
 nav img {
@@ -31,7 +38,7 @@ nav > a {
   color: #FFFFFF;
   font-weight: 800;
   font-size: 32px;
-  font-family: Yellowtail, serif;
+  font-family: serif;
 }
 
 nav ul {
@@ -50,51 +57,55 @@ nav ul li {
 
 nav ul li a {
   display: inline-block;
-  padding: 10px 0;
-  width: 100%;
+  padding: 10px;
   text-decoration: none;
   color: #FFFFFF;
 }
 
-nav div ul {
-  display: none
+nav ul li a:hover {
+  color: greenyellow;
+  transition: .5s;
+}
+
+nav div {
+  display: none;
+  width: 100%;
 }
 
 nav div ul li {
   align-items: center;
   justify-content: space-around;
+
 }
 
-nav div ul li a {
-  background-color: white;
-  padding: 3px 3px 3px 3px;
-  margin-right: 3px;
+nav div ul li a img {
   width: 30px;
+  margin: 1px;
   border-radius: 5px;
-  justify-content: space-between;
+  background-image: none;
 }
 
-/*Cabeçalho*/
+/*Sobre*/
 
-header {
+#sobre {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url("/images/Foto-Sturzen.jpeg");
+  background-color: #191970;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   color: #FFFFFF;
-  text-align: center;
+  text-align: justify;
   padding: 20px;
   width: auto;
 }
 
-header h1 {
+#sobre h1 {
   color: #FFFFFF;
 }
 
-header p {
+#sobre p {
   margin-bottom: 2em;
 }
 
@@ -107,9 +118,18 @@ header p {
   padding: 30px;
 }
 
+#agenda p {
+  text-align: center;
+}
+
 #agenda a {
   text-decoration: none;
   color: #1c1c1c;
+}
+
+#agenda a:hover {
+  color: greenyellow;
+  transition: .5s;
 }
 
 /*Notícias*/
@@ -124,11 +144,18 @@ header p {
 #noticias ul {
   list-style: none;
   padding: 0;
+  text-align: center;
   width: 100%;
 }
 
-#noticias ul li {
-  text-align: center;
+#noticias ul li a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+#noticias ul li a:hover {
+  color: greenyellow;
+  transition: .5s;
 }
 
 /*Discografia*/
@@ -138,19 +165,18 @@ header p {
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  text-align: center;
 }
 
 /*Fotos*/
 
-#fotos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
+#fotos h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-#fotos h2 {
-  margin-bottom: 20px;
+#fotos div ul {
+  padding: 0;
 }
 
 /*Vídeos*/
@@ -159,17 +185,24 @@ header p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   padding: 30px;
 }
 
-#videos ul {
+#videos div ul {
   list-style: none;
   padding: 0;
   width: 100%;
 }
 
-#videos ul li {
-  text-align: center;
+#videos div ul li a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+#videos ul li a:hover {
+  color: greenyellow;
+  transition: .5s;
 }
 
 /*Contato*/
@@ -182,8 +215,40 @@ header p {
   padding: 20px;
 }
 
-#contato h2 {
-  color: #000000;
+#contato div p a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+#contato div p a:hover {
+  color: greenyellow;
+  transition: .5s;
+}
+
+/*Redes Sociais*/
+
+#social {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+#social div {
+  list-style: none;
+  padding: 0;
+}
+
+#social div a img {
+  width: 40px;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+#social div a img:hover {
+  transform: translateY(-5px);
+  transition: .4s ease-in;
 }
 
 /*Footer*/
@@ -193,5 +258,64 @@ footer {
   padding: 10px;
   background-color: #272727;
   color: #FFFFFF;
-  width: 100%;
+}
+
+/*Responsividade*/
+
+@media screen and (min-width: 768px) {
+  p, a {
+    font-size: 20px;
+  }
+
+  /*Nav*/
+
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  nav ul {
+    flex-direction: row;
+    width: 70%;
+  }
+
+  nav div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  nav div ul {
+    align-items: center;
+  }
+
+  nav div ul li {
+    background-color: #FFFFFF;
+    margin: 2px;
+    border-radius: 4px;
+  }
+
+  /*Contato*/
+
+  #contato {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  #contato h2, #contato p {
+    width: 100%;
+  }
+
+  /*Redes sociais*/
+
+  #social {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }

@@ -1,6 +1,5 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:5,
     nav: true,
     navText: ["Anterior", "Próximo"],
     dots: false,

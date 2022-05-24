@@ -1,4 +1,4 @@
-# Construindo o site da banda STURZEN.
+# CONSTRUINDO O SITE DA BANDA STURZEN.
 
 - [x] Criando a estrutura de pastas e o html e inserindo imagens.
 - [x] Criando o navbar.
@@ -20,3 +20,12 @@
 - [x] Estilizando a section videos.
 - [x] Estilizando a section contato.
 - [x] Estilizando o footer.
+- [x] Tornando o site responsivo com media query.
+<p>Parte da responsivide construída com base neste vídeo: https://www.youtube.com/watch?v=gRIWFYRaVto&ab_channel=HostingerBrasil</p>
+<p>Aberto a sugestões de melhorias!</p>
+
+#### Vídeos do site</br>
+
+![Desktop](/videos/site-sturzen-desktop.gif)</br>
+
+![Mobile](/videos/site-sturzen-mobile.gif)</br>
