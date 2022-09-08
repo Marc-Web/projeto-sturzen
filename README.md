@@ -21,7 +21,13 @@
 - [x] Estilizando a section contato.
 - [x] Estilizando o footer.
 - [x] Tornando o site responsivo com media query.
+- [x] Tornando a barra de navegação responsiva.
+
+
 <p>Parte da responsivide construída com base neste vídeo: https://www.youtube.com/watch?v=gRIWFYRaVto&ab_channel=HostingerBrasil</p>
+
+<p>Parte da responsivide da barra de navegação construída com base neste vídeo: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp</p>
+
 <p>Aberto a sugestões de melhorias!</p>
 
 #### Vídeos do site</br>

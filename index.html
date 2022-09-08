@@ -13,26 +13,31 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Love+Light&family=Luxurious+Script&family=Tangerine:wght@700&display=swap"
       rel="stylesheet">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title> sturzen - Site Oficial</title>
   </head>
   <body>
     <nav>
-      <h1 id="logo">Sturzen</h1>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#agenda">Agenda</a></li>
-        <li><a href="#noticias">Notícias</a></li>
-        <li><a href="#discografia">Discografia</a></li>
-        <li><a href="#fotos">Fotos</a></li>
-        <li><a href="#videos">Vídeos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
+      <div class="navBar" id="topNavBar">
+        <a href="/" id="logo">Sturzen</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#agenda">Agenda</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#discografia">Discografia</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#contato">Contato</a>
+        <a href="javascript:void(0);" class="icon" onclick="mudaClasseNavBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </nav>
     <section id="sobre">
       <div>
-        <h1>STURZEN - HEAVY METAL - BRASIL</h1>
+        <h1 class="titulo-sobre">Sturzen - Heavy Metal - Brasil</h1>
         <p>A Banda Sturzen (Heavy Metal) é de Minas Gerais, da cidade Betim,
           região metropolitana de Belo Horizonte.
           A banda foi formada e está na ativa desde o ano de 2013. A banda
@@ -99,7 +104,8 @@
     <section id="agenda">
       <h2>Agenda</h2>
       <p>
-        Ensaio Aberto Convida VI <strong>21-04-2022, à partir das 16hs,</strong> no
+        Ensaio Aberto Convida VI <strong>21-04-2022, à partir das 16hs,</strong>
+        no
         Centro Cultural Vila Sta. Rita. Rua Ana Rafael
         dos Santos, 149 - Bairro: Vila Santa Rita - BH.
       </p>
@@ -137,11 +143,12 @@
         estreia que terá oito faixas, as músicas já foram
         gravadas e agora estão sendo editadas/mixadas/masterizadas, com
         previsão
-        de lançamento para julho de 2022.
+        de lançamento para o segundo semestre de 2022.
       </p>
     </section>
     <section id="fotos">
       <h2>Fotos</h2>
+      <p>Fotos de Luiza Palhares - Paisagem Lava.</p>
       <div>
         <ul class="owl-carousel owl-theme">
           <div class="item">
@@ -202,16 +209,29 @@
       <div class="divs-info">
         <ul>
           <li>
+            <p>Performance da música <strong>Violência, não!</strong> para a Mostra Periférica de Música 2021 promovida pela Fundação Municipal de Cultura de Belo Horizonte.</p>
+            <img src="/images/icones/play-solid.svg" alt="Ícone de play para o vídeo" class="icon-play">
             <a
-              href="https://www.youtube.com/watch?v=-vRjCNdRuIg&ab_channel=Sturzen"
-              target="_blank">O Que Sinto</a>
+              href="https://www.youtube.com/watch?v=R9vvcXOnHwA&ab_channel=Sturzen"
+              target="_blank">Violência, não!</a>
           </li>
           <li>
+            <p>Performance da música <strong>O que sinto</strong> para a Mostra Periférica de Música 2021 promovida pela Fundação Municipal de Cultura de Belo Horizonte.</p>
+            <img src="/images/icones/play-solid.svg" alt="Ícone de play para o vídeo" class="icon-play">
+            <a
+              href="https://www.youtube.com/watch?v=-vRjCNdRuIg&ab_channel=Sturzen"
+              target="_blank">O que Sinto</a>
+          </li>
+          <li>
+            <p>Performance da música <strong>Cicatrizes</strong> para a Mostra Periférica de Música 2021 promovida pela Fundação Municipal de Cultura de Belo Horizonte.</p>
+            <img src="/images/icones/play-solid.svg" alt="Ícone de play para o vídeo" class="icon-play">
             <a
               href="https://www.youtube.com/watch?v=pcOn4y9cEV8&ab_channel=Sturzen"
               target="_blank">Cicatrizes</a>
           </li>
           <li>
+            <p>Primeiro vídeo clipe oficial da banda Sturzen da música <strong>Dias de Trovão</strong> produzido pela própria banda.</p>
+            <img src="/images/icones/play-solid.svg" alt="Ícone de play para o vídeo" class="icon-play">
             <a
               href="https://www.youtube.com/watch?v=ywvTuuXNJTo&ab_channel=Sturzen"
               target="_blank">Dias de Trovão</a>
@@ -221,7 +241,7 @@
     </section>
     <section id="contato">
       <h2>Contato</h2>
-      <p>Estamos à disposição</p>
+      <p>Estamos à disposição!</p>
       <div>
         <img src="images/icones/tel.png" alt="Telefone">
         <p><a href="tel: 31987051339"> (31)98705-1339</a></p>
@@ -246,7 +266,7 @@
       </div>
       <div>
         <a
-          href="https://www.youtube.com/watch?v=ywvTuuXNJTo&ab_channel=Sturzen"
+          href="https://www.youtube.com/channel/UCP9tACHtboT0lzrbT5cLuFA"
           target="_pointerblank"><img
             src="/images/icones/youtube.png" alt="ícone do
             YouTube"></a>

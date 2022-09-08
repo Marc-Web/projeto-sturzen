@@ -9,80 +9,61 @@ h1, h2, h3 {
   text-align: center;
 }
 
+p {
+  line-height: 1,5;
+}
+
 /*Navegação*/
 
 #logo {
-  font-family: "Tangerine";
+  font-family: 'Tangerine', sans-serif;
   font-weight: 500;
   font-size: 50px;
   color: #FFFFFF;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #272727;
-  padding-bottom: 5px;
-}
-
-nav img {
-  margin-right: 10px;
-  margin-top: 5px;
-  max-width: 100px;
-  border-radius: 5px;
-}
-
-nav > a {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-weight: 800;
-  font-size: 32px;
-  font-family: serif;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  width: 100%;
-}
-
-nav ul li {
+  align-self: flex-start;
   text-align: center;
-  width: 100%;
-}
-
-nav ul li a {
-  display: inline-block;
-  padding: 10px;
   text-decoration: none;
-  color: #FFFFFF;
 }
 
-nav ul li a:hover {
+#logo:hover {
   color: greenyellow;
   transition: .5s;
 }
 
-nav div {
+nav {
+  background-color: #272727;
+}
+
+.navBar a:not(:first-child) {
   display: none;
-  width: 100%;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-nav div ul li {
+.navBar a.icon {
+  float: right;
+  display: block;
+}
+
+.navBar.responsive a:hover {
+  color: greenyellow;
+  transition: .5s;
+}
+
+.navBar.responsive a.icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.navBar.responsive a {
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-
-}
-
-nav div ul li a img {
-  width: 30px;
-  margin: 1px;
-  border-radius: 5px;
-  background-image: none;
 }
 
 /*Sobre*/
@@ -103,10 +84,13 @@ nav div ul li a img {
 
 #sobre h1 {
   color: #FFFFFF;
+  font-family: 'Tangerine', sans-serif;
+  font-weight: 500;
 }
 
 #sobre p {
   margin-bottom: 2em;
+  line-height: 1,5;
 }
 
 /*Agenda*/
@@ -170,9 +154,17 @@ nav div ul li a img {
 
 /*Fotos*/
 
+#fotos {
+  padding: 30px;
+}
+
 #fotos h2 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+#fotos p {
+  text-align: center;
 }
 
 #fotos div ul {
@@ -203,6 +195,11 @@ nav div ul li a img {
 #videos ul li a:hover {
   color: greenyellow;
   transition: .5s;
+}
+
+.icon-play {
+  width: 10px;
+  padding-right: 3px;
 }
 
 /*Contato*/
@@ -265,34 +262,38 @@ footer {
 @media screen and (min-width: 768px) {
   p, a {
     font-size: 20px;
+    line-height: 1,5;
   }
 
   /*Nav*/
 
-  nav {
+  .navBar div {
     flex-direction: row;
-    justify-content: space-around;
+    width: 100%;
   }
 
-  nav ul {
-    flex-direction: row;
-    width: 70%;
-  }
-
-  nav div {
+  .navBar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
 
-  nav div ul {
+  .navBar div {
     align-items: center;
   }
 
-  nav div ul li {
-    background-color: #FFFFFF;
-    margin: 2px;
-    border-radius: 4px;
+  .navBar a:not(:first-child) {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .navBar a:hover {
+  color: greenyellow;
+  transition: .5s;
+}
+
+  .navBar a.icon {
+    display: none;
   }
 
   /*Contato*/
@@ -306,6 +307,10 @@ footer {
   }
 
   #contato h2, #contato p {
+    width: 100%;
+  }
+
+  #fotos h2, #fotos p {
     width: 100%;
   }
 

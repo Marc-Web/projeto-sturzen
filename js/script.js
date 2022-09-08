@@ -16,4 +16,13 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
-})
+});
+
+function mudaClasseNavBar() {
+  let elementoDiv = document.getElementById("topNavBar");
+  if (elementoDiv.className === "navBar") {
+    elementoDiv.className += " responsive";
+  } else {
+    elementoDiv.className = "navBar";
+  }
+};
