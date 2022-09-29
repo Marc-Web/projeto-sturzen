@@ -1,5 +1,7 @@
 # Construindo o site da banda STURZEN.
 
+<p>Este é o projeto do site da banda Sturzen que desenvolvi com JavaScript, HTML e CSS. É um site responsivo que pode ser utilizado tanto em desktop quanto em celular.</p>
+
 - [x] Criando a estrutura de pastas e o html e inserindo imagens.
 - [x] Criando o navbar.
 - [x] Criando o header.
